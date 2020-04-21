@@ -22,7 +22,7 @@ https://www.interviewbit.com/problems/kth-smallest-element-in-the-array/
 int Solution::kthsmallest(const vector<int> &A, int k) {
     if (k > A.size())
         return -1;
-    /*priority_queue<int, vector<int>, greater<int> > Q;
+    /*priority_queue<int> Q;
     for (auto i = 0; i<k; ++i)
         Q.push(A[i]);
     for (auto j = k; j<A.size(); ++j)
